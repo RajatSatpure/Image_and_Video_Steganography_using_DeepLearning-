@@ -74,11 +74,11 @@ After the training, we split the trained model into two: **hide network and reve
 
 **Hide Network**
 
-![Screenshot](models/hide.png)
+![Screenshot](model/hide.png)
 
 **Reveal Network**
 
-![Screenshot](models/reveal.png)
+![Screenshot](model/reveal.png)
 
 The hide network is used by the **sender**; while the reveal network is supposed to be used by the **receiver**.The receiver has access only to the container image.In addition to the normal steganographic hiding mechanism, we also **encrypt(block shuffle)** our secret images for added security.Therefore , both the **sender and the receiver** shares a **symmetric key** for encrypting/decrypting the shuffled secret message. The encryption is performed by the sender on the **input secret image**; whereas the decryption is performed by the receiver on the **final decode image**.
 
@@ -146,15 +146,15 @@ Sample results for a pair of input videos - Secret & Cover
 **Inputs**: Secret and Cover
 
 <p align="left">
-  <img  src="videos/secret_input.gif"  width="224" height="224">
-  <img  src="videos/cover_input.gif" width="224" height="224">
+  <img  src="Videos/secret_input.gif"  width="224" height="224">
+  <img  src="Videos/cover_input.gif" width="224" height="224">
 </p>
 <br>
 
 **Outputs**: Secret and Cover
 <p align="left">
-  <img  src="videos/secret_outvid.gif" width="224" height="224">
-  <img  src="videos/cover_outvid.gif" width="224" height="224">
+  <img  src="Videos/secret_outvid.gif" width="224" height="224">
+  <img  src="Videos/cover_outvid.gif" width="224" height="224">
 </p>
 
 
